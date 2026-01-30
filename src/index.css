@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+
+@font-face{
+    font-family: "Outfit";
+    src: url("/public/fonts/Outfit-VariableFont_wght.ttf")
+         format("truetype");
+         font-weight: 100 900;
+         font-style: normal;
+}
+
+@theme{
+    --font-outfit: Outfit, sans-serif;
+    --color-black:#000000;
+    --color-grey:rgba(0,0,0,0.3);
+    --color-lightgrey:rgba(0,0,0,0.1);
+    --color-green:#496D4A;
+    --color-blue:#0248AA;
+    --color-purple:#772E9B;
+    --color-orange:#D3712C;
+    --color-yellow:#FFC800;
+    --color-text:#575757;
+}
+@layer utilities{
+    .layout{
+        @apply max-w-[95%] md:max-w-[90%] mx-auto w-full;
+    }
+}
