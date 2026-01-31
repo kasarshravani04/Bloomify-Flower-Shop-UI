@@ -1,7 +1,14 @@
+import Hero_Banner from "../components/common/home/Hero_Banner";
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Hero_Banner/>
+      
+    
+    
+    </>
   )
 }
 
-export default Home
+export default Home;
