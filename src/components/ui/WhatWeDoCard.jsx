@@ -1,4 +1,3 @@
-import React from "react";
 
 const WhatWeDoCard = ({ item }) => {
   return (
@@ -11,7 +10,7 @@ const WhatWeDoCard = ({ item }) => {
         alt={item.heading}
         fetchPriority="low"
         loading="lazy"
-        width={100}
+        width="auto"
         height={100}
         className="w-44 h-44 rounded-4xl"
       />
