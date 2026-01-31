@@ -26,3 +26,30 @@
         @apply max-w-[95%] md:max-w-[90%] mx-auto w-full;
     }
 }
+
+.banner_background {
+  background-image: url("./assets/Banner1.png");
+}
+.footer_background {
+  background-image: url("./assets/Footer.img.png");
+}
+
+
+/*  slider css */
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
