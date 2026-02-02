@@ -1,5 +1,7 @@
 import GalleryImg from "../components/ui/GalleryImg.jsx";
+import Galleryservices from "../components/ui/Galleryservices.jsx"
 import {galleryData}  from "../data/galleryData.jsx";
+import { galleryservices } from "../data/galleryservices.jsx";
 
 
 
@@ -23,11 +25,20 @@ const Gallery = () => {
            </div>
           
          </div>
-         
+      </div>
+      <header className="font-bold text-text">
+        <h4>SERVICES</h4>
+      </header>
+      <div>
+        {
+          galleryservices && galleryservices.map((item) =>(
+            <Galleryservices item = {item}/>
+          ))
+        }
       </div>
 
     </section>
   )
 }
 
-export default Gallery
+export default Gallery;
