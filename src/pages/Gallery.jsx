@@ -6,7 +6,7 @@ import {galleryData}  from "../data/galleryData.jsx";
 const Gallery = () => {
   return (
     <section>
-      <header className="text-5xl md:text-8xl font-bold">
+      <header className="text-5xl md:text-8xl font-bold mb-16">
          <h3>Gallery</h3>
       </header>
       <div className="md:grid grid-cols-12 gap-4 my-20">

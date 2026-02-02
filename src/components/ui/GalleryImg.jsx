@@ -8,8 +8,10 @@ const GalleryImg = ({item}) => {
             <p className="text-sm text-gray-500">{item.price}</p>
         </div>
         <div className="rounded-2xl overflow-hidden">
-            <img src={item.img} alt={item.name} width={500} height={260}
+            <img src={item.img} alt={item.name}
             className=" object-cover
+            w-full
+            h-full
             rounded-2xl
             transition-transform
             duration-300
