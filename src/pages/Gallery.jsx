@@ -36,8 +36,14 @@ const Gallery = () => {
           ))
         }
       </div>
+      <div className='text-center my-10'>
+           <h3 className='text-sm text-text mb-4'>WORK WITH US</h3>
+           <h4 className='font-bold text-4xl md:max-w-[80%] lg:max-w-[60%] mx-auto mb-10'>
+             Discover how we can add a touch of natural beauty to your next event. 
+            </h4>
+           <button className='px-6 py-2 bg-yellow text-sm text-black rounded '>ABOUT US </button>
+       </div>
 
-      
 
     </section>
   )
