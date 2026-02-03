@@ -37,6 +37,8 @@ const Gallery = () => {
         }
       </div>
 
+      
+
     </section>
   )
 }

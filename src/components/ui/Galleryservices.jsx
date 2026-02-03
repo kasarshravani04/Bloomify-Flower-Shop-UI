@@ -1,14 +1,14 @@
 
 const Galleryservices = ({item}) => {
     return (
-     <div
+    <div
          key={item.id}
          className="py-10 px-6 border-t last:border-b border-grey flex flex-row justify-between gap-12 ">
-        <div className="">
-           <h4 className="font-bold text-2xl md:text-5xl">
+        <div className="px-5">
+           <h2 className="font-bold text-2xl md:text-5xl">
            {item.heading}
-           </h4>
-           <p className="text-text text-sm mt-4 sm:mt-2">
+           </h2>
+           <p className="text-text text-lg mt-4 sm:mt-2">
            {item.description}
            </p>
         </div>
@@ -19,11 +19,9 @@ const Galleryservices = ({item}) => {
         loading="lazy"
         width="auto"
         height={100}
-        className="w-44 h-44 rounded-4xl"
+        className="w-90 h-90 rounded-4xl"
         />
-         
-
-     </div>
+    </div>
     )
 }
 
