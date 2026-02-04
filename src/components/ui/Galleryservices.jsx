@@ -3,7 +3,7 @@ const Galleryservices = ({item}) => {
     return (
     <div
          key={item.id}
-         className="py-10 px-6 border-t last:border-b border-grey flex flex-row justify-between gap-12 ">
+         className="py-10 px-6 border-t last:border-b border-grey flex flex-row justify-between gap-12 sm:flex flex-wrap ">
         <div className="px-5">
            <h2 className="font-bold text-2xl md:text-5xl">
            {item.heading}

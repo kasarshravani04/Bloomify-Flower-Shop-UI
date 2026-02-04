@@ -7,7 +7,7 @@ const GalleryImg = ({item}) => {
             <h3 className="text-md font-semibold uppercase">{item.name}</h3>
             <p className="text-md font-bold text-gray-500">{item.price}</p>
         </div>
-        <div className="rounded-2xl overflow-hidden my-5">
+        <div className="rounded-2xl overflow-hidden">
             <img src={item.img} alt={item.name}
             className=" object-cover
             w-full

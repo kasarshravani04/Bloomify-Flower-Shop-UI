@@ -4,7 +4,6 @@ import {galleryData}  from "../data/galleryData.jsx";
 import { galleryservices } from "../data/galleryservices.jsx";
 
 
-
 const Gallery = () => {
   return (
     <section>
@@ -12,30 +11,31 @@ const Gallery = () => {
          <h3>GALLERY</h3>
       </header>
       <div className="md:grid grid-cols-12 gap-4 my-20">
-         <aside className=" md:col-span-2 text-text font-bold text-md">
+         <aside className="md:col-span-2 text-text font-bold text-md">
           <h3>SEASONAL ARRANGEMENTS</h3>
          </aside>
-         <div className="md:col-span-10">
-           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-               {
-            galleryData && galleryData.map((item)=>(
-              <GalleryImg item = {item}/>
-            ))
-          }
+        <div className="md:col-span-10">
+           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 md:gap-y-12">
+              {
+                galleryData && galleryData.map((item)=>(
+                <GalleryImg item = {item}/>
+              ))
+              }
            </div>
-          
-         </div>
+        </div>
       </div>
-      <div className="md:grid grid-cols-12 gap-4 my-20">
+      <div className="md:grid grid-cols-12 gap-4 my-20 ">
         <aside className="md:col-span-2 text-text font-bold text-lg">
           <h4>SERVICES</h4>
         </aside>
-        <div className=" md:col-span-10">
+        <div className="md:col-span-10">
+          
         {
           galleryservices && galleryservices.map((item) =>(
             <Galleryservices item = {item}/>
           ))
         }
+         
         </div>
       </div>
       <div className='text-center my-10'>
