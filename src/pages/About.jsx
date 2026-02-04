@@ -22,7 +22,9 @@ const About = () => {
           </aside>
           <div className="col-span-10 space-y-12">
              <figure className="flex items-start gap-4">
-              <img src={about} alt="Lilly Smith" width={250} height={500} fetchPriority="auto" loading="lazy"/>
+              <img src={about} alt="Lilly Smith" width={450} height={500} fetchPriority="auto" loading="lazy"
+                 className="rounded-4xl"
+              />
               <figcaption>
                  <h3>Lilly Smith</h3>
                  <span>Owner</span>
