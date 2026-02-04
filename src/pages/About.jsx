@@ -13,21 +13,21 @@ const item = [
 const About = () => {
   return (
     <section>
-       <header className=" text-5xl md:text-8xl font-bold">
-           <h3>About</h3>
+       <header className=" text-5xl md:text-5xl font-bold my-16">
+           <h3>ABOUT</h3>
        </header>
        <div className="md:grid grid-cols-12 gap-4 my-20">
-          <aside className="col-span-2">
-            <h3>Our Story</h3>
+          <aside className="col-span-2 text-text md:text-sm font-bold">
+            <h3>OUR STORY</h3>
           </aside>
           <div className="col-span-10 space-y-12">
-             <figure className="flex items-start gap-4">
+             <figure className="flex flex-wrap items-start gap-4">
               <img src={about} alt="Lilly Smith" width={450} height={500} fetchPriority="auto" loading="lazy"
                  className="rounded-4xl"
               />
-              <figcaption>
-                 <h3>Lilly Smith</h3>
-                 <span>Owner</span>
+              <figcaption className="font-bold">
+                 <h3>LILLY SMITH</h3>
+                 <span className="text-text">Owner</span>
               </figcaption>
              </figure>
              <h3 className="text-4xl font-bold">
@@ -48,7 +48,7 @@ const About = () => {
                   />
                 ))}
              </div>
-             <div className="max-w-full md:max-w-[70%] w-full text-md space-y-4">
+             <div className="max-w-full md:max-w-full text-2xl space-y-4">
                <p>
                 Lily’s journey with flowers began in the heart of Oregon, 
                 amidst the flourishing fields of her aunts' flower farm. It 
@@ -76,7 +76,7 @@ const About = () => {
                  className="w-full h-64 object-cover rounded-4xl "
               />
              </div>
-             <div className="max-w-full md:max-w-[70%] w-full text-md space-y-4">
+             <div className="max-w-full md:max-w-full text-2xl space-y-4">
               <p>
                 From humble beginnings, Bloom&Co has grown into a beloved 
                 local destination, known for its artistic arrangements, 
@@ -85,7 +85,7 @@ const About = () => {
               <p>
                 Discover how we can add a touch of natural beauty to your next event.
               </p>
-              <button className=" cursor-pointer px-6 py-2 bg-yellow text-sm font-bold text-black rounded">
+              <button className=" cursor-pointer px-6 py-2 mt-4 bg-yellow text-sm font-bold text-black rounded">
                 BOOK A CONSULTATION
               </button>
              </div>
