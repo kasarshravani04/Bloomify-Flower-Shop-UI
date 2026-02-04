@@ -1,7 +1,6 @@
 import Hero_Banner from "../components/common/home/Hero_Banner";
 import Home_About from "../components/common/home/Home_About";
 import Services from "../components/common/home/Services";
-import Banner1 from "../assets/banner1.png";
 import {Link} from "react-router-dom";
 
 

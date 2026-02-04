@@ -32,7 +32,7 @@ const About = () => {
               Our Blooms was founded in honor of Lily Smith’s loving aunts, Teresa and Beth.
               </h3>
 
-             <div  className="flex flex-wrap gap-4">
+             <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
                 {[image1,image2,image3].map((item,index) =>(
                   <img 
                      key={index +1} 
@@ -42,7 +42,7 @@ const About = () => {
                      loading="lazy"
                      width={280}
                      height={350}
-                    className="rounded-2xl aspect-[1/1.2]"
+                    className="rounded-2xl col-span-1 w-full aspect-[1/1.2]"
                   />
                 ))}
              </div>

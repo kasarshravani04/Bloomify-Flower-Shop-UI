@@ -3,11 +3,11 @@
 const GalleryImg = ({item}) => {
   return (
     <div className="flex flex-col space-y-3" key={item.id}>
-        <div className="space-y-1">
-            <h3 className="text-sm font-semibold uppercase tracking-wide">{item.name}</h3>
-            <p className="text-sm text-gray-500">{item.price}</p>
+        <div className="flex flex-row gap-2">
+            <h3 className="text-md font-semibold uppercase">{item.name}</h3>
+            <p className="text-md font-bold text-gray-500">{item.price}</p>
         </div>
-        <div className="rounded-2xl overflow-hidden">
+        <div className="rounded-2xl overflow-hidden my-5">
             <img src={item.img} alt={item.name}
             className=" object-cover
             w-full
