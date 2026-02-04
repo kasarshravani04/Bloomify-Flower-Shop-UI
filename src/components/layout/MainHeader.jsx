@@ -22,21 +22,21 @@ const MainHeader = () => {
                    <NavLink to="/gallery" className={
                       ({ isActive }) => isActive? "text-sm font-bold underline underline-offset-4" : "font-bold text-sm"
                    }>
-                     Gallery
+                     GALLERY
                    </NavLink>
                 </li>
                 <li>
                   <NavLink to="/about" className={
                       ({ isActive }) => isActive? "text-sm font-bold underline underline-offset-4" : "font-bold text-sm"
                    }>
-                     About
+                     ABOUT
                    </NavLink>
                 </li>
                 <li>   
                    <NavLink to="/contact" className={
                       ({ isActive }) => isActive? "text-sm font-bold underline underline-offset-4" : "font-bold text-sm"
                    }>
-                     Contact
+                     CONTACT
                    </NavLink>
                 </li>
               </ul>

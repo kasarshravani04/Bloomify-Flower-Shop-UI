@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/O.B..png";
+
 const MainFooter = () => {
   return (
     <footer className="layout p-6 rounded-t-4xl footer_background min-h-[80vh] bg-no-repeat bg-cover bg-fixed flex flex-col justify-end">
