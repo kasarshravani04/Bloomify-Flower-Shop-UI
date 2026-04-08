@@ -8,13 +8,13 @@ const App = () => {
     <div className='flex flex-col min-h-screen font-outfit'>
         <BrowserRouter>        
            <MainHeader/>
-             <main className='grow layout'>
+            <main className='grow layout'>
                 <AppRoutes/>
-               </main> 
+              </main> 
            <MainFooter/>
         </BrowserRouter>
     </div>
   );
 };
 
-export default App
+export default App;
